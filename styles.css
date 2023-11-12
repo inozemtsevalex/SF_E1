@@ -1,0 +1,46 @@
+
+.header {
+    display: inline-block;
+    width: 100%;
+    background-color: #101010;
+}
+.logo-container{
+    display: inline-block;
+    color: white;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content {
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content img {
+    float: left;
+    padding: 0 20px 20px 0;
+ }
+ .content p{
+    padding: auto;
+ }
